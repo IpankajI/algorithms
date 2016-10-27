@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<bits/stdc++.h>		
 using namespace std;
 const int N=100;
 int parent[N],disc[N],low[N],tim;
@@ -48,3 +48,4 @@ int main(){
 	printf("%d\n",vc.size());
 	for(int i=0;i<vc.size();i++) printf("%d %d\n",vc[i].first,vc[i].second);
 }
+//problem link-https://www.hackerearth.com/practice/algorithms/graphs/articulation-points-and-bridges/tutorial/
