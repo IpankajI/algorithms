@@ -27,9 +27,7 @@ bool rCheck(int i,int j){
 bool Check(int i,int j){
     return rCheck(i,j)&&cCheck(i,j)&&sCheck(i,j);
 }
-int cnt=0;
 bool solve(int i,int j){
-    ++cnt;
     if(j>=9){
         ++i;
         j=0;
@@ -77,3 +75,4 @@ int main() {
 	}
 	return 0;
 }
+//problem link-http://www.practice.geeksforgeeks.org/problem-page.php?pid=1537
