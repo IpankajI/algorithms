@@ -27,9 +27,9 @@ int main() {
 	                break;
 	            }
 	        }
-	        //cout<<sum<<endl;
 	    }
 	    cout<<sum<<endl;
 	}
 	return 0;
 }
+//problem link- http://www.practice.geeksforgeeks.org/problem-page.php?pid=1645
