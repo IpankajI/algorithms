@@ -58,6 +58,7 @@ vector<int> SuffixArray(string& s){
 }
 
 vector<int> LCP(string& s){
+  // kasai algorithm
   vector<int> a = SuffixArray(s);
   int len = s.length();
   vector<int> rank(len, 0);
